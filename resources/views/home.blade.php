@@ -3,5 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-  <h1>home</h1>
+  <div class="foto-uno">
+    <img src="{{ asset('img/molisana-home.jpg')}}" alt="img">
+  </div>
 @endsection

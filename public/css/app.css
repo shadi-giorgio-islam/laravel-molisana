@@ -35,3 +35,24 @@ header nav ul li:hover {
   background-color: #B3E5FC;
 }
 
+.foto-uno img {
+  height: 800px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card {
+  width: calc(100% / 3);
+}
+
+.card img {
+  width: 100%;
+}
+

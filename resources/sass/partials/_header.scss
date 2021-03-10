@@ -1,0 +1,25 @@
+header{
+  text-align: center;
+  #logo{
+    img{
+      height: 120px;
+    }
+  }
+  nav{
+    ul{
+      list-style: none;
+      li{
+        display: inline-block;
+        padding: 10px;
+        a{
+          text-decoration: none;
+          font-size: 24px;
+          color: $blue;
+        }
+        &:hover{
+          background-color: $lightblue;
+        }
+      }
+    }
+  }
+}

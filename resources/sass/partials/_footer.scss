@@ -1,0 +1,33 @@
+footer{
+  padding-top: 80px;
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding-bottom: 80px;
+    div{
+      width: calc(100% / 4);
+    }
+    .text{
+      h3{
+        font-size: 26px;
+        color: $blue;
+      }
+      a{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        color: $grey;
+        text-decoration: none;
+        display: block;
+      }
+    }
+  }
+  .bottom-image{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+}

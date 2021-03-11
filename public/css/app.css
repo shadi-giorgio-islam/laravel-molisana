@@ -33,9 +33,23 @@ header nav ul li.active {
   background-color: #B3E5FC;
 }
 
-.foto-uno img {
+#home .foto-home {
+  height: 800px;
+}
+#home .foto-home img {
   height: 800px;
   width: 100%;
+}
+#home .comment {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: #001942;
+  padding: 20px 0;
+}
+#home .comment h2 {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 #products {
@@ -110,4 +124,36 @@ header nav ul li.active {
 }
 #products .card:hover .layer {
   display: block;
+}
+
+footer {
+  padding-top: 80px;
+}
+footer .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  padding-bottom: 80px;
+}
+footer .row div {
+  width: calc(100% / 4);
+}
+footer .row .text h3 {
+  font-size: 26px;
+  color: #001942;
+}
+footer .row .text a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #404040;
+  text-decoration: none;
+  display: block;
+}
+footer .bottom-image {
+  width: 100%;
+}
+footer .bottom-image img {
+  width: 100%;
 }

@@ -1,7 +1,21 @@
-.foto-uno{
-  img{
+#home{
+  .foto-home{
     height: 800px;
-    width: 100%;
+    img{
+      height: 800px;
+      width: 100%;
+    }
+  }
+  .comment{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: $blue;
+    padding: 20px 0;
+    h2{
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+    }
   }
 }
 #products{

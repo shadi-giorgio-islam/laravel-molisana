@@ -3,7 +3,12 @@
 @section('title', 'Home')
 
 @section('content')
-  <div class="foto-uno">
-    <img src="{{ asset('img/molisana-home.jpg')}}" alt="img">
+  <div id="home">
+    <div class="foto-home">
+      <img src="{{ asset('img/molisana-home.jpg')}}" alt="img">
+    </div>
+    <div class="comment">
+      <h2>LA MOLISANA: PASTA E FARINE DI QUALITÀ</h2>
+    </div>
   </div>
 @endsection

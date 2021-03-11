@@ -126,6 +126,27 @@ header nav ul li.active {
   display: block;
 }
 
+#dettaglio {
+  background-color: #B8DAE4;
+}
+#dettaglio h2 {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 23px;
+  color: #001942;
+}
+#dettaglio .foto {
+  width: 100%;
+}
+#dettaglio .foto img {
+  width: 100%;
+}
+#dettaglio .text p {
+  color: #001942;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
 footer {
   padding-top: 80px;
 }

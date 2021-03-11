@@ -3,7 +3,25 @@
 @section('title', $prodotto['titolo'])
 
 @section('content')
-  <div class="foto-uno">
-    <img src="{{$prodotto['src-h']}}" alt="pasta">
+  <div id="dettaglio">
+    <h2>{{$prodotto['titolo']}}</h2>
+    <div class="foto">
+      <img src="{{$prodotto['src-h']}}" alt="pasta">
+      <img src="{{$prodotto['src-p']}}" alt="pasta">
+    </div>
+    <div class="text">
+      <div class="info">
+        <div class="tipo">
+          TIPOLOGIA: {{$prodotto['tipo']}}
+        </div>
+        <div class="cottura">
+          {{$prodotto['cottura']}}
+        </div>
+        <div class="peso">
+          {{$prodotto['peso']}}
+        </div>
+      </div>
+      <p>{!! $prodotto['descrizione'] !!}</p>
+    </div>
   </div>
 @endsection

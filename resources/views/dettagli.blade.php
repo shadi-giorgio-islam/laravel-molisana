@@ -15,10 +15,10 @@
           TIPOLOGIA: {{$prodotto['tipo']}}
         </div>
         <div class="cottura">
-          {{$prodotto['cottura']}}
+          <i class="far fa-clock"></i> TEMPI DI COTTURA: {{$prodotto['cottura']}}
         </div>
         <div class="peso">
-          {{$prodotto['peso']}}
+          PESO: {{$prodotto['peso']}}
         </div>
       </div>
       <p>{!! $prodotto['descrizione'] !!}</p>

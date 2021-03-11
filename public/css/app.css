@@ -141,6 +141,22 @@ header nav ul li.active {
 #dettaglio .foto img {
   width: 100%;
 }
+#dettaglio .text {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 80px;
+}
+#dettaglio .text .info {
+  font-size: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#dettaglio .text .info div {
+  padding: 20px;
+}
 #dettaglio .text p {
   color: #001942;
   font-size: 20px;

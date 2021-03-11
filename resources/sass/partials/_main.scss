@@ -106,6 +106,20 @@
     }
   }
   .text{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 80px;
+    .info{
+      font-size: 36px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      div{
+        padding: 20px;
+      }
+    }
     p{
       color: $blue;
       font-size: 20px;

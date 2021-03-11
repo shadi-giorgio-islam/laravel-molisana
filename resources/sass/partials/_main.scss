@@ -4,37 +4,76 @@
     width: 100%;
   }
 }
-.container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-}
-.card{
-  width: calc(100% / 3);
-  position: relative;
-  img{
-    width: 100%;
-  }
-  .layer{
-    width: 100%;
-    height: calc(100% - 8px);
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    display: none;
-    .title{
+#products{
+  background-color: $lightblue;
+  padding-bottom: 40px;
+  .comment{
+    padding: 10px 0 20px 0;
+    color: white;
+    background-color: $blue;
+    font-family: 'Open Sans', sans-serif;
+    h2{
       color: white;
-      font-size: 24px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      font-size: 18px;
+      font-weight: 700;
+      padding-bottom: 10px;
+    }
+    p{
+      text-align: center;
+      font-size: 14px;
     }
   }
-  &:hover .layer{
-    display: block;
+  h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    padding: 20px;
+    color: $grey;
+  }
+  .container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .card{
+    height: 250px;
+    margin: 10px 10px 0 0;
+    position: relative;
+    img{
+      height: 250px;
+    }
+    .layer{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(255, 255, 255, 0.7);
+      display: none;
+      .title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        a{
+          color: $blue;
+          text-decoration: none;
+          font-size: 24px;
+        }
+        hr{
+          margin: auto;
+          border: 1px solid $blue;
+          width: 30px;
+        }
+      }
+    }
+    &:hover .layer{
+      display: block;
+    }
   }
 }
